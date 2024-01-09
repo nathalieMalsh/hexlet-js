@@ -1,5 +1,8 @@
-console.log("Hello, Hexlet!");
+import {sayHello} from './src/index.js';
+import {fun} from './src/index.js';
 
-import _ from "lodash";
+const startGreeting = sayHello();
+const funny = fun();
 
-console.log(_.last(["one", "two"]));
+console.log(startGreeting);
+console.log(funny);
